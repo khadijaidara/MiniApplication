@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/profils"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </ImageView>
+
+    <EditText
+        android:hint="Login"
+        android:id="@+id/txtLoginProfil"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </EditText>
+
+    <EditText
+        android:hint="Password"
+        android:id="@+id/txtPasswordProfil"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        >
+
+    </EditText>
+
+    <EditText
+        android:hint="Nom"
+        android:id="@+id/txtNom"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+    </EditText>
+
+    <EditText
+        android:hint="Prenom"
+        android:id="@+id/txtPrenom"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </EditText>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:hint="Adresse"
+        android:id="@+id/txtAdresse"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </EditText>
+    <EditText
+        android:inputType="text|number"
+        android:hint="Telephone"
+        android:id="@+id/txtTelephone"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </EditText>
+    <Button
+        android:background="@color/colorPrimary"
+        android:text="Modifier"
+        android:id="@+id/btnEnregistrer"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+    </Button>
+</LinearLayout>
